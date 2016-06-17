@@ -1,0 +1,175 @@
+/* Created by Iyad */
+/* Last modified: 4:18 PM, 25 May 2016 */
+
+html, body {
+	font-family: Verdana,sans-serif;
+	margin: 0;
+}
+
+/* Use this for every content in the main website */
+.content {
+	margin-left:200px;
+	padding:60px 16px;
+}
+
+.header {
+	background-color: #00332e;
+	color: white;
+    position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 40px;
+	padding: 20px 10px 0px 20px;
+	box-shadow: 0 0 5px #333333;
+	z-index: 1;
+}
+
+p.headertext {
+	margin-top: 10px;
+}
+
+.logout {
+	float:right;
+	padding-right:40px;
+}
+
+.logout a {
+	color: white;
+	text-decoration:none;
+}
+
+.logout a:hover {
+	color: gray;
+}
+
+.card {
+	box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+	padding: 20px;
+}
+
+ /* Use this for any button */
+.btn {
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:6px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:#fff;
+	background-color:#00665c;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	transition-duration: 0.2s;
+}
+
+.btn:hover {
+    background-color: #00332e;
+}
+
+.btn2 {
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:6px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:#fff;
+	background-color:#e60000;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap;
+	transition-duration: 0.2s;
+}
+
+.btn2:hover {
+    background-color: #cc0000;
+}
+
+/* Use this for input type="text" */
+.input {
+	padding: 8px 0 8px 8px;
+	display:block;
+	border:none;
+	border-bottom:1px solid #808080;
+	width:100%;
+	background-color:white;
+	transition-duration:0.2s;
+}
+
+.input:hover {
+	background-color: #f2f2f2;
+}
+
+label {
+	color: #009688;
+	font-size: 10pt;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+/* Style for nav bar */
+.nav {
+    list-style-type: none;
+    margin: 0;
+	margin-top: 60px;
+    padding: 0;
+    width: 200px;
+    background-color: #00665c;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+	z-index: 0;
+}
+
+.nav li a {
+    display: block;
+    color: #00ccb8;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+	transition-duration: 0.2s;
+}
+
+.nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #004d45;
+    color: white;
+}
+/* Style for nav bar END */
+
+/* Style for table */
+.tbl {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tbl th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.tbl tr:nth-child(even){background-color: #f2f2f2}
+
+.tbl th {
+    background-color: #00665c;
+    color: white;
+}
+/* Style for table END */
+
+.w3-pagination{display:inline-block;padding:0;margin:0}.w3-pagination li{display:inline}
+.w3-pagination li a{text-decoration:none;color:#000;float:left;padding:8px 16px}
+.w3-pagination li a:hover,.w3-pagination li a:focus{color:#FFF;background-color:#00665c}
